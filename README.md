@@ -49,6 +49,7 @@
 # Solution Architecture Overview
 
 
+![Solution_architecture](https://github.com/user-attachments/assets/600a3a49-b863-4168-8a5b-baa2979897d1)
 
 ### DATA EXTRACTION/ INGESTION
 Four different datasets were ingested from both the ECDC website and azure blob storage into Datalake Gen2. They are - 
@@ -69,6 +70,7 @@ Ingest "population by age" data for all EU Countries into the Data Lake to suppo
 
 ### Solution Flow
 
+![Module_Solution](https://github.com/user-attachments/assets/45fd8ce3-50e4-4051-84c3-8f3b247b5bda)
 
 ### Steps:
 1. Create a Linked Service To Azure Blob Storage
@@ -83,6 +85,8 @@ Ingest "population by age" data for all EU Countries into the Data Lake to suppo
 
 
 ### Pipeline Design :
+![Screenshot (259)](https://github.com/user-attachments/assets/718a63d5-57ea-453f-ac84-3759f7666408)
+
 
 ### ECDC Data from Web to Destination Data Lake
 
@@ -94,6 +98,7 @@ Ingest "population by age" data for all EU Countries into the Data Lake to suppo
 
 
 ### Solution Flow
+![image](https://github.com/user-attachments/assets/d268350a-abe0-4a30-9a39-bea9a5e90f1b)
 
 
 Steps:
