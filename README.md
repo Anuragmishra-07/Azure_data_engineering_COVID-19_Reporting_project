@@ -110,10 +110,12 @@ Steps:
 6. Lookup to get all the parameters from json file, then pass it to ForEach ECDC DATA as shown below
 7. Schedule Trigger
 
+![image](https://github.com/user-attachments/assets/14fbe052-fca7-447b-a209-8e436914bc80)
 
 
 ### Pipeline Design :
 
+![image](https://github.com/user-attachments/assets/f0b73396-3118-4a68-b714-396265dd2854)
 
 
 # 2. DATA TRANSFORMATION
@@ -132,6 +134,7 @@ The Cases and Deaths data together with the Hospital admissions data was transfo
 # Data Flows (1) Cases & Deaths Data:
 
 ### Solution Flow
+![image](https://github.com/user-attachments/assets/d4404640-2841-4794-991b-56e5e22925dc)
 
 
 ### Steps:
@@ -144,12 +147,14 @@ The Cases and Deaths data together with the Hospital admissions data was transfo
 7. Create a Sink dataset (Azure Data Lake Storage Gen2)
 8. Used Schedule Trigger
 
+![image](https://github.com/user-attachments/assets/23c85005-f950-434a-8e6d-3b30a551fec0)
 
 
 
 # Data Flows (2) Hospital Admissions Data:
 
 ### Solution Flow
+![image](https://github.com/user-attachments/assets/214ccb49-9447-4488-91c1-7afbe9034a4e)
 
 
 ### Steps:
@@ -174,10 +179,12 @@ The Cases and Deaths data together with the Hospital admissions data was transfo
 - Create a sink dataset (Azure Data Lake Storage Gen2)
 - Used Schedule Trigger
 
+![image](https://github.com/user-attachments/assets/6c1da2fd-32fc-4791-a00a-f755b5d5c304)
 
 
 # Databricks Activity (3) -- Population File:
 
+![image](https://github.com/user-attachments/assets/91cbd9ec-193f-4086-bba6-bc0da8423f30)
 
 
 # 3. Copy Data to Azure SQL
@@ -185,7 +192,9 @@ The Cases and Deaths data together with the Hospital admissions data was transfo
 2- Copy hospital admissions data
 3- Copy testing data
 
+![image](https://github.com/user-attachments/assets/ecbb2436-5e46-4bc9-9da1-a268f370a32a)
 
+![image](https://github.com/user-attachments/assets/cce37126-8c84-4df8-b90a-48800103c818)
 
 
 
@@ -200,19 +209,20 @@ The Cases and Deaths data together with the Hospital admissions data was transfo
 
 # Covid-19 Trend in the EU/EEA & UK 2020 by Cases, Deaths, Hospital Occupancy, and ICU Occupancy
 
+![image](https://github.com/user-attachments/assets/74260b22-0d92-44f2-a654-08ce411efaa9)
 
 
 # Covid-19 Cases and Death breakdown by population in the UK, France, and Germany
 
+![image](https://github.com/user-attachments/assets/13787cbf-c0c4-4fe6-a37a-51571313c136)
 
 
 
 # Total Number of covid tests carried out vs Confirmed Cases
 
+![image](https://github.com/user-attachments/assets/2f31643b-123e-4414-9383-74e5fbf89e4b)
 
 
-
-# Power BI Dashboard
 
 
 
